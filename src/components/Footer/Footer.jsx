@@ -30,7 +30,8 @@ function FooterCard({ title, links }) {
   return (
     <div className="bg-white rounded-2xl shadow-lg p-6 w-full max-w-xs mb-6 flex flex-col items-center relative">
       <button
-        className="bg-orange-400 text-black font-bold text-lg w-full py-2 rounded-t-2xl mb-4 flex items-center justify-between px-4 focus:outline-none"
+        className="bg-orange-400 text-black font-bold text-lg w-full py-2 mb-4 flex items-center justify-between px-4 focus:outline-none" style={{ borderRadius: '0 12px 0 12px' }}
+
         onClick={toggleOpen}
         aria-expanded={showLinks}
       >
